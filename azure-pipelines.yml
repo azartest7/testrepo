@@ -8,6 +8,7 @@ trigger:
 
 pool:
   name: Default
+  vmImage : DESKTOP-CBT2V4G
 
 steps:
 - script: echo Hello, world!
