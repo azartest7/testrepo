@@ -7,9 +7,8 @@ trigger:
 - main
 
 pool:
-  - name: Default
-    vmImage: DESKTOP-CBT2V4G
-    
+  name: default
+
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
